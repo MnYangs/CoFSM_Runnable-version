@@ -1,7 +1,6 @@
 function [cleanedPoints3,cleanedPoints4]=COFSM_func(image_1,image_2)
 
 addpath(genpath('CoFSM'));
-addpath('E:\我的文档\研究生文件\图像匹配的重要代码\CoFSM算法\CoFSM-master\CoFSM-code\CoFSM');
 
 %% 1 Initial parameters setting
 sigma_s=10;                 % The main parameters of co-occurrence filtering: filter initial window size [3, 5, 10]
